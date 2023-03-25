@@ -23,4 +23,4 @@ async def pasw(ctx):
 async def help(ctx):
     await ctx.send(f"У вас есть команды: hello, pasw, help")
 
-bot.run("")
+bot.run("")123
