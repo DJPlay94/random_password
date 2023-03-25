@@ -18,5 +18,9 @@ async def hello(ctx):
 @bot.command()
 async def pasw(ctx):
     await ctx.send(gen_pass(10))
+    
+@bot.command()
+async def help(ctx):
+    await ctx.send(f"У вас есть команды: hello, pasw, help")
 
 bot.run("")
